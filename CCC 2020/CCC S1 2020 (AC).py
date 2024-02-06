@@ -1,3 +1,4 @@
+# CCC '20 S1 - Surmising a Sprinter's Speed
 import sys, heapq
 input = sys.stdin.readline
 

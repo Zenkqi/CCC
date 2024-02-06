@@ -1,3 +1,4 @@
+# CCC '08 S3 - Maze
 import sys
 from collections import deque
 

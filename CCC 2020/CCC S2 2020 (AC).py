@@ -1,3 +1,4 @@
+# CCC '20 S2 - Escape Room
 import sys
 from collections import deque
 input = sys.stdin.readline

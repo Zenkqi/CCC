@@ -1,3 +1,4 @@
+# CCC '10 J5 - Knight Hop
 from collections import deque
 A, B = map(int, input().split())
 

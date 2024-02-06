@@ -1,3 +1,4 @@
+# CCC '00 S4 - Golf
 import sys
 input = sys.stdin.readline
 

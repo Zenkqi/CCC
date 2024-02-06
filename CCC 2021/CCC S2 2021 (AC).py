@@ -1,5 +1,5 @@
-# CCC '21 S2 - Modern Art
 import sys
+
 input = sys.stdin.readline
 
 M = int(input())

@@ -1,4 +1,7 @@
-# Passed
+# CCC '00 S1 - Slot Machines
+import sys
+input = sys.stdin.readline
+
 quarters = int(input())
 
 first = int(input())

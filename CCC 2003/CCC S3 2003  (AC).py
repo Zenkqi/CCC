@@ -1,3 +1,4 @@
+# CCC '03 S3 - Floor Plan
 import sys
 from collections import deque
 

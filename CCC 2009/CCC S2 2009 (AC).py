@@ -1,4 +1,4 @@
-# Lights Going On and Off
+# CCC '09 S2 - Lights Going On and Off
 import sys
 input = sys.stdin.readline
 

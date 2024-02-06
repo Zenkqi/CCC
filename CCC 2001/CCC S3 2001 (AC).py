@@ -5,23 +5,22 @@ roads = []
 
 while True:
     links = input()
-    if links == '**':
-        break
-    else:
-        connectingRoads.add(links)
-        point1, point2 = map(str, list(links))
+    if links == '**': break
+        
+    connectingRoads.add(links)
+    point1, point2 = map(str, list(links))
 
-        if "A" not in links or 'B' not in links or point1 not in roads or point2 not in roads:
-            roads.append((point1, point2))
+    if "A" not in links or 'B' not in links or point1 not in roads or point2 not in roads:
+        roads.append((point1, point2))
 
-        if point1 not in roadLinks:
-            roadLinks[point1] = []
+    if point1 not in roadLinks:
+        roadLinks[point1] = []
 
-        if links[1] not in roadLinks:
-            roadLinks[point2] = []
+    if links[1] not in roadLinks:
+        roadLinks[point2] = []
 
-        roadLinks[point1].append(point2)
-        roadLinks[point2].append(point1)
+    roadLinks[point1].append(point2)
+    roadLinks[point2].append(point1)
 
 
 def bfs(start, eKey, eRoad):
@@ -33,14 +32,15 @@ def bfs(start, eKey, eRoad):
         point = q.popleft()
         visited.add(point)
 
-        if point in roadLinks:
-            for road in roadLinks[point]:
-                if (point, road) != (eKey, eRoad) and (road, point) != (eKey, eRoad):
-                    if road not in visited:
-                        q.append(road)
+        if not point in roadLinks: continue 
+            
+        for road in roadLinks[point]:
+            if (point, road) != (eKey, eRoad) and (road, point) != (eKey, eRoad):
+                if road not in visited:
+                    q.append(road)
 
-                    if road == 'B':
-                        return True
+                if road == 'B':
+                    return True
 
     return False
 

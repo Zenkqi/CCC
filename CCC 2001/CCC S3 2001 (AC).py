@@ -1,3 +1,4 @@
+# CCC '01 S3 - Strategic Bombing
 from collections import deque
 roadLinks = {}
 connectingRoads = set()

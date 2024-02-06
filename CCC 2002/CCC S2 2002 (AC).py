@@ -1,3 +1,4 @@
+# CCC '02 S2 - Fraction Action
 import sys
 input = sys.stdin.readline
 

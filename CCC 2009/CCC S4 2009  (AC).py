@@ -1,3 +1,4 @@
+# CCC '09 S4 - Shop and Ship
 import sys, heapq
 
 input = sys.stdin.readline

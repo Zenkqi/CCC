@@ -1,3 +1,4 @@
+# CCC '18 S2 - Sunflowers
 import copy
 N = int(input())        # Num of Plants
 

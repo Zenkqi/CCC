@@ -1,3 +1,4 @@
+# CCC '23 S2 - Symmetric Mountains
 import sys
 input = sys.stdin.readline
 

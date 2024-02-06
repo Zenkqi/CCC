@@ -1,3 +1,4 @@
+# CCC '07 S3 - Friends
 import sys; from collections import deque
 input = sys.stdin.readline
 

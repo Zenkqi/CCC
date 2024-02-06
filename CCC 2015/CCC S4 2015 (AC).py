@@ -1,3 +1,4 @@
+# CCC '15 S4 - Convex Hull
 # Funny Dijkstra's
 import sys, heapq
 input = sys.stdin.readline

@@ -1,3 +1,4 @@
+# CCC '09 S3 - Degrees Of Separation
 from collections import deque
 
 friends ={

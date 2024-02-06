@@ -1,3 +1,4 @@
+# CCC '18 S3 - RoboThieves
 from collections import deque
 N, M = map(int, input().split())
 

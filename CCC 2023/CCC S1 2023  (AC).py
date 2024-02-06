@@ -1,4 +1,4 @@
-# Passed
+# CCC '23 S1 - Trianglane
 C = int(input())          # Columns
 
 ROW1 = input().split()

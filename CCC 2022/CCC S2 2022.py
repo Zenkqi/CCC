@@ -1,3 +1,4 @@
+# CCC '22 S2 - Good Groups
 violate = 0
 studentMapping = {}
 

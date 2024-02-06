@@ -1,3 +1,4 @@
+# CCC '03 S4 - Substrings
 import sys
 input = sys.stdin.readline
 S = int(input())

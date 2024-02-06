@@ -1,3 +1,4 @@
+# CCC '22 S1 - Good Fours and Good Fives
 num = int(input())
 total = 0
 

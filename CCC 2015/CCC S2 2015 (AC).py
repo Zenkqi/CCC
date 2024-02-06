@@ -1,3 +1,4 @@
+# CCC '15 S2 - Jerseys
 J = int(input())
 A = int(input())
 

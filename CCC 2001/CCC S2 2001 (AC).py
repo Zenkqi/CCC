@@ -1,3 +1,4 @@
+# CCC '01 S2 - Spirals
 from math import ceil, floor, sqrt
 
 x = int(input())
